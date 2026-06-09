@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
   name: "leveldb",
+  platforms: [.watchOS(.v9)],
   products: [
     .library(
       name: "leveldb",
